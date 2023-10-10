@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="sliding_square_loader_view.gif"> -->
+    <title>GitHub User Details</title>
+</head>
+<body>
+    <div id="w">
+        <h1>GitHub User Profile</h1>
+        <p>Enter a Github username below and click the button to display profile info via GitHub.</p>
+        <form id="myForm">
+        <input type="text" name="ghusername" id="ghusername" placeholder="Github username...">
+          
+        <input type="submit" value="Pull User Data" >  
+          
+        </form>
+        <div id="ghapidata" class="clearfix">
+            <!-- <div id="loader" style="display: none;"><img src="https://i.imgur.com/UqLN6nl.gif" alt="loading..."></div> -->
+        </div>
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>
